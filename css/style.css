@@ -1,0 +1,346 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width: 320px) {
+/* Styles */
+
+
+/* Smartphones (landscape) ----------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+b,strong{
+	font-weight:700;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+padding-top: 0px;
+padding-bottom: 20px;
+font-family: "San Francisco","Helvetica Neue","Roboto",Helvetica,Arial,sans-serif;
+color: #000000;      }
+
+/*
+ * The following is needed since the dropdowns are <div> elements instead
+ * of <a> elements
+ */
+
+.carousel {
+	margin-top: 100px;
+}
+.full {
+	width: 100%;
+}
+.left-img {
+  width: 100%;
+}
+h1 {
+	color: #4990E2;
+	margin-top: 24px;
+	font-size: 36px;
+	font-weight: 800;
+	padding: 50px 0;
+  text-align: center;
+}
+h2 {
+	color: #000;
+	margin-top: 24px;
+	font-size: 18px;
+	font-weight: 200;
+	padding: 15px 0;
+}
+p {
+	margin-top: 18px;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 15px 0;
+  line-height: 1.5em;
+}
+
+.padding-off {
+	padding: 15px 0;
+}
+.float-center {
+	margin: 0;
+  text-align: center;
+}
+
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.btn {
+	margin: 25px 0;
+}
+
+a {
+	color: #ffffff;
+}
+
+.block {
+  width: 100%;
+  max-width: 200px;
+  display:inline-block;
+}
+
+a {
+	color: #000 !important;
+}
+a:focus, a:active {
+	color: #000 !important;
+}
+a:hover{
+	color:rgba(0, 0, 0, 0.8) !important;
+	text-decoration:underline;
+}
+textarea { 
+  width: 100%; 
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  border-width: 0; 
+  background-color: #f2f2f2;
+  border: none !important;
+}
+input {
+  width: 100%;
+  max-width: 400px;
+  background-color: #f2f2f2;
+  border: none !important;
+}
+.email-container p {
+  padding: 15px 0;
+  margin: 15px 0;
+}
+input.submit {
+  width: 100%;
+  max-width: 1400px;
+  padding: 15px;
+  background-color: #4990E2;
+  color: #ffffff;
+}
+.icon {
+  width: 30px;
+  display: block;
+
+}
+.icons {
+  display: inline-block;
+
+}
+.light-tint {
+  background-color: #f7f7f7;
+}
+.darker-tint {
+  background-color: #f2f2f2;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width: 768px) {
+ .margin-slight {
+  margin: 0px;
+}
+h1 {
+
+  text-align: left;
+}
+}
+/* Desktops and laptops ----------- */
+@media screen and (min-width: 924px){
+.margin-slight {
+  margin: 0 45px;
+}
+}
+
+/* Large screens ----------- */
+@media screen and (min-width: 1824px){
+
+}
+
+/*
+Contact Form by html-form-guide.com
+You can customize all the aspects of the form in this style sheet
+All the style elements use form id selector(notice the #contactus). So, including this
+stylesheet does not affect the other elements at all!
+*/
+
+#contactus fieldset
+{
+   width:320px;
+   padding:20px;
+   border:1px solid #ccc;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+border-radius: 10px;   
+}
+
+#contactus legend, h2
+{
+   font-family : Arial, sans-serif;
+   font-size: 1.3em;
+   font-weight:bold;
+   color:#333;
+}
+
+#contactus label
+{
+   font-family : Arial, sans-serif;
+   font-size:0.8em;
+   font-weight: bold;
+}
+
+#contactus input[type="text"],textarea
+{
+  font-family : Arial, Verdana, sans-serif;
+  font-size: 0.8em;
+  line-height:140%;
+  color : #000; 
+  padding : 3px; 
+  border : 1px solid #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+#contactus input[type="text"]
+{
+  height:18px;
+  width:220px;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   border-radius: 5px;   
+  
+}
+
+#contactus #scaptcha
+{
+  width:60px;
+  height:18px;
+}
+
+#contactus input[type="submit"]
+{
+   width:100px;
+   height:30px;
+   padding-left:0px;
+   
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   border-radius: 5px;   
+}
+
+#contactus textarea
+{
+  height:120px;
+  width:310px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+   border-radius: 8px;  
+}
+
+#contactus input[type="text"]:focus,textarea:focus
+{
+  color : #009;
+  border : 1px solid #990000;
+  background-color : #ffff99;
+  font-weight:bold;
+}
+
+#contactus .container
+{
+   margin-top:8px;
+   margin-bottom: 10px;
+}
+
+#contactus .error
+{
+   font-family: Verdana, Arial, sans-serif; 
+   font-size: 0.7em;
+   color: #900;
+   background-color : #ffff00;
+}
+
+#contactus fieldset#antispam
+{
+   padding:2px;
+   border-top:1px solid #EEE;
+   border-left:0;
+   border-right:0;
+   border-bottom:0;
+   width:350px;
+}
+
+#contactus fieldset#antispam legend
+{
+   font-family : Arial, sans-serif;
+   font-size: 0.8em;
+   font-weight:bold;
+   color:#333;   
+}
+
+#contactus .short_explanation
+{
+   font-family : Arial, sans-serif;
+   font-size: 0.6em;
+   color:#333;   
+}
+
+/* spam_trap: This input is hidden. This is here to trick the spam bots*/
+#contactus .spmhidip
+{
+   display:none;
+   width:10px;
+   height:3px;
+}
+#fg_crdiv
+{
+   font-family : Arial, sans-serif;
+   font-size: 0.3em;
+   opacity: .2;
+   -moz-opacity: .2;
+   filter: alpha(opacity=20);   
+}
+#fg_crdiv p
+{
+    display:none;
+}
